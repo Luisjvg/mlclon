@@ -6,7 +6,7 @@ export default createGlobalStyle`
     --black: #000000;
     --white: #ffffff;
 
-    --text1: rgba(0, 0, 0, .9);
+    --text1: rgba(218, 208, 194, .9);
     --text2: rgba(0, 0, 0, .55)
 
     --green: #72ffda;
