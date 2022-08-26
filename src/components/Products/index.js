@@ -32,16 +32,22 @@ export const Products = () => {
                 <img src={img.star} alt="Estrella de puntuacion" class="galery-star"></img>
                 </span>
               <br/>
-              <span>
-                  MÁS VENDIDO 1° en Notebooks
+              <span class="galery-betterSell">
+                  MÁS VENDIDO
+              </span>
+              <span class="galery-OneCategory">
+                  1° en Notebooks
               </span>
               <span>
               <br/>
-                Precio <br/>
-                cuotas
+                <span class="galery-price">$</span>
+                <span class="galery-price">123.499</span>
+               <br/>
+                <span class="galery-fee1">en</span>
+                <span class="galery-fee2">6x $ 20.583 sin interés</span>
               <br/>
               </span>
-              <span>
+              <span class="galery-methodPay">
                 Ver los medios de pago
               </span>
               <br/>

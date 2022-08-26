@@ -2,20 +2,22 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 :root{
-    --fondo: #1f2223;
+    --background: #2c3031;
+    --background2: #1f2223;
     --black: #000000;
     --white: #ffffff;
 
     --text1: rgba(218, 208, 194, .9);
     --text2: rgba(0, 0, 0, .55)
 
-    --green: #72ffda;
     --blue1: #79cfff;
     --blue2: #055ce0;
     --blue3: #52cfff;
     --blue4: #1b69cf;
+    --green: #72ffda;
     --yellow1: #938600;
     --yellow2: #fffef4;
+    --orange: #e14b00;
     --gray1: #2c3031;
     --gray2: #272a2b;
 
@@ -38,7 +40,7 @@ h1, h2, h3, h4, h5, h6{
 }
 html{
     min-height: 100%;
-    background-color: var(--fondo);
+    background-color: var(--background);
 }
 *, button, input{
     border: 0;
