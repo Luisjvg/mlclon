@@ -67,6 +67,57 @@ export const Products = () => {
                 <li>Modo de sonido Stereo.</li>
               </ul>
           </p>
+          <div class="galery-info-buy">
+            <p class="galery-info-shipping">"Llega gratis "
+              <span>el lunes</span>
+              <span>Logo Full</span>
+            </p>
+            <div class="galery-info-direction">
+              <a href="#">
+                <p>Logo de enviar</p>
+                Dirección del comprador
+              </a>
+            </div>
+            <div class="galery-info-sellerInfo">
+              <div class="sellerInfo-sellerName">
+                Vendido por
+                <a>Nombre Vendedor</a>
+              </div>
+            </div>
+            <p class="galery-info-stock">Stock disponible</p>
+            <div class="galery-info-stockInfo">
+               <span>Cantidad: </span>
+               <span class="stockInfo-unit">1 unidad </span>
+               <span class="stockInfo-quantities">(4 disponibles)
+              </span>
+            </div>
+            <div class="galery-info-buttonBuy">
+              <button class="buttonBuy-buy">Comprar ahora</button>
+              <button class="buttonBuy-addCar">Agregar al carrito</button>
+            </div>
+            <div class="galery-info-buyInfo">
+              <ul class="buyInfo-list">
+                <li>
+                  <span>
+                    <a href='#'>Devolución gratis. </a>
+                    Tenés 30 días desde que lo recibís
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <a href='#'>Compra Protegida, </a>
+                    recibí el producto que esperabas o te devolvemos tu dinero.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <a href='#'>Mercado Puntos. </a>
+                    Sumás 907 puntos.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </Galeria>
           <Info /> 
         </Column>

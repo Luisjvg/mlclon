@@ -17,14 +17,14 @@ background-color: var(--gray1);
 `
 export const Galeria = styled.div`
 display: grid;
-grid-template-columns: 2fr 1fr;
+grid-template-columns: 2fr 1fr 1fr;
 justify-items: center;
 background-color: var(--background2);
 margin: 0 150px;
 /* display: flex; 
 align-items: center;
 justify-content: center; */
-width: 891px;
+width: 1184px;
 
 
 >img{
