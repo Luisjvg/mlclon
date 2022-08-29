@@ -68,21 +68,25 @@ export const Products = () => {
               </ul>
           </p>
           <div class="galery-info-buy">
-            <p class="galery-info-shipping">"Llega gratis "
-              <span>el lunes</span>
-              <span>Logo Full</span>
-            </p>
-            <div class="galery-info-direction">
-              <a href="#">
-                <p>Logo de enviar</p>
-                Dirección del comprador
-              </a>
+            <div class="galery-info-shipping-container">
+              <p class="galery-info-shipping">
+                Llega gratis
+                <span> mañana</span>
+              </p>
+              <div class="galery-info-direction">
+                <a href="#">
+                  <img src={img.pin}></img>
+                  Dirección del comprador
+                </a>
+              </div>
             </div>
             <div class="galery-info-sellerInfo">
               <div class="sellerInfo-sellerName">
                 Vendido por
                 <a>Nombre Vendedor</a>
               </div>
+              <p>MercadoLíder | 43.159 ventas</p>
+              <span>Hace Factura A</span>
             </div>
             <p class="galery-info-stock">Stock disponible</p>
             <div class="galery-info-stockInfo">

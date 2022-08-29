@@ -10,6 +10,7 @@ export default createGlobalStyle`
     --text1: rgba(218, 208, 194, .9);
     --text2: rgba(0, 0, 0, .55)
 
+    --blue0: blue;
     --blue1: #79cfff;
     --blue2: #055ce0;
     --blue3: #52cfff;

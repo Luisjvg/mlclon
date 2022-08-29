@@ -19,6 +19,7 @@ export const Galeria = styled.div`
 display: grid;
 grid-template-columns: 2fr 1fr 1fr;
 justify-items: center;
+align-items: center;
 background-color: var(--background2);
 margin: 0 150px;
 /* display: flex; 
@@ -94,7 +95,43 @@ width: 1184px;
     opacity: 90%;
     margin-top: 700px auto;
 }
+.galery-info-buy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 649px;
+}
+.galery-info-shipping-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0 15px 0;
+}
+.galery-info-shipping{
+    color: var(--green);
+    font-size: 16px;
+    & span{
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+.galery-info-direction a{
+    text-decoration: none;
+    color: var(--blue1);
+    >img{
+        width: 14px;
+        margin: 0 5px 0 35px;
+    }
+}
+.galery-info-sellerInfo{
+    font-size: 14px;
+    >span{
+        font-size: 12px;
+        color: var(--gray1)
+    }
+}
 `
+
 export const Description = styled.div`
 border-top: 1px solid black;
 width: 88%;
