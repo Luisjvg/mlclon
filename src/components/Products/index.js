@@ -83,7 +83,7 @@ export const Products = () => {
             <div class="galery-info-sellerInfo">
               <div class="sellerInfo-sellerName">
                 Vendido por
-                <a>Nombre Vendedor</a>
+                <a> Nombre Vendedor</a>
               </div>
               <p>MercadoLíder | 43.159 ventas</p>
               <span>Hace Factura A</span>
@@ -96,10 +96,25 @@ export const Products = () => {
               </span>
             </div>
             <div class="galery-info-buttonBuy">
-              <button class="buttonBuy-buy">Comprar ahora</button>
-              <button class="buttonBuy-addCar">Agregar al carrito</button>
+              <button class="buttonBuy-buy">Comprar ahora</button><br/>
+              <button class="buttonBuy-addCar">
+                <span>Agregar al carrito</span></button>
             </div>
             <div class="galery-info-buyInfo">
+              <ul class="buyInfo-list">
+                <li>
+                  <img src={img.flecha}></img>
+                </li>
+                <li>
+                  <img src={img.escudo}></img>
+                </li>
+                <li>
+                  <img src={img.trofeo}></img>
+                </li>
+                <li>
+                  <img src={img.insignia}></img>
+                </li>
+              </ul>
               <ul class="buyInfo-list">
                 <li>
                   <span>
@@ -117,6 +132,11 @@ export const Products = () => {
                   <span>
                     <a href='#'>Mercado Puntos. </a>
                     Sumás 907 puntos.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    12 meses de garantía de fábrica.
                   </span>
                 </li>
               </ul>

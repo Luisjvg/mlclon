@@ -127,8 +127,69 @@ width: 1184px;
     font-size: 14px;
     >span{
         font-size: 12px;
-        color: var(--gray1)
+        color: var(--white);
+        opacity: 50%;
     }
+    >p{
+        color:var(--white)
+    }
+}
+.sellerInfo-sellerName{
+    color: var(--white);
+    & a {
+        color: var(--blue1);
+    }
+
+}
+.galery-info-stock{
+    color: var(--white);
+    margin: 35px 0 0 0;
+}
+.galery-info-stockInfo{
+    opacity: 90%;
+    margin: 30px 0;
+    color: var(--white);
+    .stockInfo-quantities{
+        opacity: 55%;
+    }
+}
+.galery-info-buttonBuy button{
+    width: 275px;
+    height: 48px;
+    margin: 0 0 8px 0;
+    border-radius: 6px;
+}
+.buttonBuy-buy{
+    background-color: var(--blue2);
+}
+.buttonBuy-addCar{
+    background-color: rgba(30, 45, 61, 1);
+    >span{
+        color: var(--blue3);
+    }
+}
+.galery-info-buyInfo{
+    display: grid;
+    grid-template-columns: auto 3fr;
+    grid-template-rows: repeat(4, .2fr);
+}
+.galery-info-buyInfo img{
+    grid-column: 1;
+}
+.buyInfo-list{
+    margin: 15px 8px;
+    list-style: none;
+    >li{
+        margin: 15px 0;
+        }
+    & span{
+        color: rgba(255, 255, 255, 0.55);
+        font-size: 14px;
+        /* opacity: 55%; */
+        }
+    & a{
+        text-decoration: none;
+        }
 }
 `
 
