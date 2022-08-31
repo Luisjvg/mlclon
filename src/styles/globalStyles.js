@@ -19,7 +19,7 @@ export default createGlobalStyle`
     --yellow1: #938600;
     --yellow2: #fffef4;
     --orange: #e14b00;
-    --gray1: #2c3031;
+    /* --gray1: #2c3031; */
     --gray2: #272a2b;
 
     --reputacion1: #4e0000;

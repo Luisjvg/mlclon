@@ -1,36 +1,31 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-padding-top: 12px;
-display: flex;
-justify-content: space-between;
-flex-direction: column;
+padding-top: 25px;
+background-color: var(--background);
+/* width: 1519px; */
+/* align-items: center; */
 `
 export const Row = styled.div`
->a{
-    font-size: 14px;;
-    text-decoration: none;
-    color: var(--blue1)
-    padding: 2.5px 0;
-    transition: all 300ms ease-in-out;
-
-    & + a{
-        padding-left: 5px;
-    }
-    & + span{
-        margin 0 5px;
-    }
-}
->section{
-    display: grid;
-    grid-template-columns: repeat(4, auto) 1fr;
+width: 1184px;
+display: flex; 
+.hero-row-container{
+    display: flex;
+    flex-direction: column;
     gap: 25px;
-    text-decoration: none;
-    >div{
-        display: flex;
-        justify-content: center;
-        gap: 25px;
+}
+.nav-right{
+    justify-content: flex-end;
+    & li{
+        list-style: none;
     }
 }
+.hero-nav-container li{
+    list-style: none;
+    display: inline;
 
+}
+.hero-nav-container li::after{
+    content: "-";
+}
 `

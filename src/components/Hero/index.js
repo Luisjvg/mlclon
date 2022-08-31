@@ -5,30 +5,33 @@ export const Hero = () => {
   return (
     <Container>
       <Row>
-        <a href="#">También puede interesarte:</a>
-        <a href="#">laptop notebook</a>
-        <span>-</span>
-        <a href="#">notebook samsung</a>
-        <span>-</span>
-        <a href="#">sony vaio</a>
-        <span>-</span>
-        <a href="#">computadora notebook</a>
-        <span>-</span>
-        <a href="#">lenovo notebook</a>
-        <span>-</span>
-        <a href="#">lenovo s145</a>
-        
-        <section>
-        <a href="#">Volver al listado</a>
-        <a href="#">Computación</a>
-        <a href="#">Laptops y Accesorios</a>
-        <a href="#">Notebooks</a>
-        <div>
-        <a href="#">Compartir</a>
-        <a href="#">Vender uno igual</a>
+        <div class="hero-row-container">
+          <div class="hero-nav-container">
+            <ul class="nav-container1">
+              <li>También puede interesarte: </li>
+              <li>laptop notebook</li>
+              <li>notebook samsung</li>
+              <li>sony vaio</li>
+              <li>computadora notebook</li>
+              <li>lenovo notebook</li>
+              <li>lenovo s145</li>
+            </ul>
+          </div>
+          <div class="hero-nav-container">
+            <ul class="nav-container2">
+              <li>Volver al listado</li>
+              <li>Computación</li>
+              <li>Laptops y Accesorios</li>
+              <li>Notebooks</li>
+            </ul>
+          </div>
         </div>
-
-        </section>
+        <div class="nav-right">
+          <ul>
+            <li>Compartir</li>
+            <li>Vender uno igual</li>
+          </ul>
+        </div>
       </Row>
     </Container>
   )

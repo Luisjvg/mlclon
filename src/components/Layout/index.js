@@ -12,10 +12,10 @@ export const Layout = () =>{
     return (
         <Container>
             <Header />
-            <Wrapper />
+            <Wrapper>
                 <Hero />
                 <Products />
-            <Wrapper />
+            </Wrapper>
         </Container>
     )
 }

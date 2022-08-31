@@ -3,17 +3,19 @@ import styled from "styled-components";
 export const Container = styled.div`
 display: flex;
 flex-direction: column;
-margin-top: 12px;
-
+background-color: var(--background);
 `
 export const Panel = styled.div`
-background-color: var(--white);
+background-color: var(--background);
 display: grid;
-grid-template-columns: 67fr 33fr;
+grid-template-columns: 1fr;
+align-content: center;
 `
 
 export const Column = styled.div`
-background-color: var(--gray1);
+background-color: var(--background);
+/* width: 1519px; */
+margin-top: 12px;
 `
 export const Galeria = styled.div`
 display: grid;
@@ -21,11 +23,12 @@ grid-template-columns: 2fr 1fr 1fr;
 justify-items: center;
 align-items: center;
 background-color: var(--background2);
-margin: 0 150px;
+width: 1184px;
+margin: 0 auto;
 /* display: flex; 
 align-items: center;
 justify-content: center; */
-width: 1184px;
+
 
 
 >img{

@@ -13,7 +13,7 @@ export const Products = () => {
     <Container>
       <Panel>
         <Column>
-        <Galeria>
+          <Galeria>
           <img src={img.notebook} alt="Producto"></img>
           <p>
             <span class='galery-sell'>
@@ -142,8 +142,8 @@ export const Products = () => {
               </ul>
             </div>
           </div>
-        </Galeria>
-          <Info /> 
+          </Galeria>
+            <Info /> 
         </Column>
         <Column>
           {/* <ProuctoVenta />
