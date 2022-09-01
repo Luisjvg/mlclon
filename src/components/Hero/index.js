@@ -5,9 +5,9 @@ export const Hero = () => {
   return (
     <Container>
       <Row>
-        <div class="hero-row-container">
-          <div class="hero-nav-container">
-            <ul class="nav-container1">
+        <div className="hero-row-container">
+          <div className="hero-nav-container">
+            <ul className="nav-container1">
               <li>También puede interesarte: </li>
               <li>laptop notebook</li>
               <li>notebook samsung</li>
@@ -17,8 +17,8 @@ export const Hero = () => {
               <li>lenovo s145</li>
             </ul>
           </div>
-          <div class="hero-nav-container">
-            <ul class="nav-container2">
+          <div className="hero-nav-container">
+            <ul className="nav-container2">
               <li>Volver al listado</li>
               <li>Computación</li>
               <li>Laptops y Accesorios</li>
@@ -26,7 +26,7 @@ export const Hero = () => {
             </ul>
           </div>
         </div>
-        <div class="nav-right">
+        <div className="nav-right">
           <ul>
             <li>Compartir</li>
             <li>Vender uno igual</li>

@@ -15,8 +15,8 @@ export const Products = () => {
         <Column>
           <Galeria>
           <img src={img.notebook} alt="Producto"></img>
-          <p>
-            <span class='galery-sell'>
+          <article>
+            <span className='galery-sell'>
                 Nuevo | 4637 vendidos
             </span>
               <br/>
@@ -25,29 +25,29 @@ export const Products = () => {
                 </h2>
               <br/>
                 <span>
-                <img src={img.star} alt="Estrella de puntuacion" class="galery-star"></img>
-                <img src={img.star} alt="Estrella de puntuacion" class="galery-star"></img>
-                <img src={img.star} alt="Estrella de puntuacion" class="galery-star"></img>
-                <img src={img.star} alt="Estrella de puntuacion" class="galery-star"></img>
-                <img src={img.star} alt="Estrella de puntuacion" class="galery-star"></img>
+                <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
+                <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
+                <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
+                <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
+                <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
                 </span>
               <br/>
-              <span class="galery-betterSell">
+              <span className="galery-betterSell">
                   MÁS VENDIDO
               </span>
-              <span class="galery-OneCategory">
+              <span className="galery-OneCategory">
                   1° en Notebooks
               </span>
               <span>
               <br/>
-                <span class="galery-price">$</span>
-                <span class="galery-price">123.499</span>
+                <span className="galery-price">$</span>
+                <span className="galery-price">123.499</span>
                <br/>
-                <span class="galery-fee1">en</span>
-                <span class="galery-fee2">6x $ 20.583 sin interés</span>
+                <span className="galery-fee1">en</span>
+                <span className="galery-fee2">6x $ 20.583 sin interés</span>
               <br/>
               </span>
-              <span class="galery-methodPay">
+              <span className="galery-methodPay">
                 Ver los medios de pago
               </span>
               <br/>
@@ -66,42 +66,42 @@ export const Products = () => {
                 <li>Posee pad numérico.</li>
                 <li>Modo de sonido Stereo.</li>
               </ul>
-          </p>
+          </article>
           <div class="galery-info-buy">
-            <div class="galery-info-shipping-container">
-              <p class="galery-info-shipping">
+            <div className="galery-info-shipping-container">
+              <p className="galery-info-shipping">
                 Llega gratis
                 <span> mañana</span>
               </p>
-              <div class="galery-info-direction">
+              <div className="galery-info-direction">
                 <a href="#">
                   <img src={img.pin}></img>
                   Dirección del comprador
                 </a>
               </div>
             </div>
-            <div class="galery-info-sellerInfo">
-              <div class="sellerInfo-sellerName">
+            <div className="galery-info-sellerInfo">
+              <div className="sellerInfo-sellerName">
                 Vendido por
                 <a> Nombre Vendedor</a>
               </div>
               <p>MercadoLíder | 43.159 ventas</p>
               <span>Hace Factura A</span>
             </div>
-            <p class="galery-info-stock">Stock disponible</p>
-            <div class="galery-info-stockInfo">
+            <p className="galery-info-stock">Stock disponible</p>
+            <div className="galery-info-stockInfo">
                <span>Cantidad: </span>
                <span class="stockInfo-unit">1 unidad </span>
                <span class="stockInfo-quantities">(4 disponibles)
               </span>
             </div>
-            <div class="galery-info-buttonBuy">
-              <button class="buttonBuy-buy">Comprar ahora</button><br/>
-              <button class="buttonBuy-addCar">
+            <div className="galery-info-buttonBuy">
+              <button className="buttonBuy-buy">Comprar ahora</button><br/>
+              <button className="buttonBuy-addCar">
                 <span>Agregar al carrito</span></button>
             </div>
-            <div class="galery-info-buyInfo">
-              <ul class="buyInfo-list">
+            <div className="galery-info-buyInfo">
+              <ul className="buyInfo-list">
                 <li>
                   <img src={img.flecha}></img>
                 </li>
@@ -115,7 +115,7 @@ export const Products = () => {
                   <img src={img.insignia}></img>
                 </li>
               </ul>
-              <ul class="buyInfo-list">
+              <ul className="buyInfo-list">
                 <li>
                   <span>
                     <a href='#'>Devolución gratis. </a>
