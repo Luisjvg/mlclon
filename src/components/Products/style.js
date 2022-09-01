@@ -19,7 +19,7 @@ margin-top: 12px;
 `
 export const Galeria = styled.div`
 display: grid;
-grid-template-columns: 2fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
 justify-items: center;
 align-items: center;
 background-color: var(--background2);
@@ -29,9 +29,7 @@ margin: 0 auto;
 align-items: center;
 justify-content: center; */
 
-
-
->img{
+ >img{
     height: 40%;
     align-self: center;
 }
@@ -40,14 +38,14 @@ justify-content: center; */
     font-size: 14px;
     opacity: 55%;
 }
->p{
+>article{
     display:flex;
     flex-direction: column;
     justify-content: center;
     
 }
 
->p h2{
+>article h2{
     font-size: 22px;
     font-family: var(--family);
     line-height: 25.96px;
@@ -55,14 +53,14 @@ justify-content: center; */
     color: var(--white);
     opacity: 90%;
 }
->p .galery-star{
+>article .galery-star{
     height: 14px;
     width: 15px;
     margin-right: 3px;
     background-color: var(--blue2);
     
 }
->p .galery-betterSell{
+>article .galery-betterSell{
     background-color: var(--orange);
     padding: 2px 2px;
     font-size: 12px;
@@ -72,26 +70,26 @@ justify-content: center; */
     border-radius: 3px;
     opacity: 90%;
 }
->p .galery-OneCategory{
+>article .galery-OneCategory{
     color: var(--blue1);
     font-size: 12px;
     opacity: 90%;
 }
->p .galery-price{
+>article .galery-price{
     font-size: 36px;
     opacity: 90%;
 }
->p .galery-fee1{
+>article .galery-fee1{
     font-size: 18px;
     opacity: 90%;
 }
->p .galery-fee2{
+>article .galery-fee2{
     padding-left: 5px;
     font-size: 18px;
     color: var(--green);
     opacity: 90%;
 }
->p .galery-methodPay{
+>article .galery-methodPay{
     font-size: 14px;
     line-height: 18.9px;
     color: var(--blue2);
