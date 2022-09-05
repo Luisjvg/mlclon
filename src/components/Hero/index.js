@@ -8,8 +8,8 @@ export const Hero = () => {
         <div className="hero-row-container">
           <div className="hero-nav-container">
             <ul className="nav-container1">
-              <li>También puede interesarte: </li>
-              <li>laptop notebook</li>
+              <span>También puede interesarte: </span>
+              <a href="#">laptop notebook</a>
               <li>notebook samsung</li>
               <li>sony vaio</li>
               <li>computadora notebook</li>
@@ -19,8 +19,10 @@ export const Hero = () => {
           </div>
           <div className="hero-nav-container">
             <ul className="nav-container2">
-              <li>Volver al listado</li>
-              <li>Computación</li>
+              <span>
+                Volver al listado
+              </span>
+              <a href="#">Computación</a>
               <li>Laptops y Accesorios</li>
               <li>Notebooks</li>
             </ul>
@@ -28,7 +30,9 @@ export const Hero = () => {
         </div>
         <div className="nav-right">
           <ul>
-            <li>Compartir</li>
+            <span>
+              <li>Compartir</li>
+            </span>
             <li>Vender uno igual</li>
           </ul>
         </div>
