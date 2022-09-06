@@ -15,7 +15,7 @@ export const Products = () => {
         <Column>
           <Galeria>
           <img src={img.notebook} alt="Producto"></img>
-          <article>
+          <section>
             <span className='galery-sell'>
                 Nuevo | 4637 vendidos
             </span>
@@ -32,12 +32,14 @@ export const Products = () => {
                 <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
                 </span>
               <br/>
-              <span className="galery-betterSell">
-                  MÁS VENDIDO
-              </span>
-              <span className="galery-OneCategory">
-                  1° en Notebooks
-              </span>
+              <div>
+                <span className="galery-betterSell">
+                    MÁS VENDIDO
+                </span>
+                <span className="galery-OneCategory">
+                    1° en Notebooks
+                </span>
+              </div>
               <span>
               <br/>
                 <span className="galery-price">$</span>
@@ -52,24 +54,28 @@ export const Products = () => {
               </span>
               <br/>
               <br/>
-              <ul>
-                <span>Lo que tenés que saber de este producto
+              <div className='galery-info'>
+                <span>
+                    Lo que tenés que saber de este producto
                 </span>
-                <li>Procesador AMD Ryzen 5.</li>
-                <li>Memoria RAM de 8GB.</li>
-                <li>Resolución de 1920x1080 px.</li>
-                <li>Es antirreflejo.</li>
-                <li>Placa de video AMD Radeon RX Vega 7.</li>
-                <li>Conexión wifi y bluetooth.</li>
-                <li>Cuenta con 3 puertos USB y puerto HDMI.</li>
-                <li>Incluye lector de tarjeta de memoria.</li>
-                <li>Posee pad numérico.</li>
-                <li>Modo de sonido Stereo.</li>
-              </ul>
-          </article>
+                <ul>
+                  <li>Procesador AMD Ryzen 5.</li>
+                  <li>Memoria RAM de 8GB.</li>
+                  <li>Resolución de 1920x1080 px.</li>
+                  <li>Es antirreflejo.</li>
+                  <li>Placa de video AMD Radeon RX Vega 7.</li>
+                  <li>Conexión wifi y bluetooth.</li>
+                  <li>Cuenta con 3 puertos USB y puerto HDMI.</li>
+                  <li>Incluye lector de tarjeta de memoria.</li>
+                  <li>Posee pad numérico.</li>
+                  <li>Modo de sonido Stereo.</li>
+                </ul>
+              </div>
+          </section>
           <div class="galery-info-buy">
             <div className="galery-info-shipping-container">
               <p className="galery-info-shipping">
+                <img src={img.camion} alt='imagen de camion'></img>
                 Llega gratis
                 <span> mañana</span>
               </p>

@@ -1,11 +1,12 @@
 import logo from './logo__small@2x.png'
 import notebook from './notebook.webp'
-import star from './star.png'
+import star from './estrella.jpg'
 import pin from './pin.png'
 import escudo from './icons/escudo.png'
 import flecha from './icons/flecha.png'
 import insignia from './icons/insignia.png'
 import trofeo from './icons/trofeo.png'
+import camion from './camion.jpg'
 
 export const img = {
     "logo": logo,
@@ -15,6 +16,7 @@ export const img = {
     "escudo": escudo,
     "flecha": flecha,
     "insignia": insignia,
-    "trofeo": trofeo
+    "trofeo": trofeo,
+    "camion": camion
 }
 

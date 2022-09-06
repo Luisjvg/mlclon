@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-display: flex;
-flex-direction: column;
+/* display: flex;
+flex-direction: column; */
 background-color: var(--background);
 `
 export const Panel = styled.div`
 background-color: var(--background);
-display: grid;
+/* display: grid;
 grid-template-columns: 1fr;
-align-content: center;
+align-content: center; */
 `
 
 export const Column = styled.div`
@@ -19,18 +19,18 @@ margin-top: 12px;
 `
 export const Galeria = styled.div`
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1.5fr 1fr 1fr;
 justify-items: center;
 align-items: center;
 background-color: var(--background2);
-width: 1184px;
+width: 85%;
 margin: 0 auto;
 /* display: flex; 
 align-items: center;
 justify-content: center; */
 
  >img{
-    height: 40%;
+    width: 75%;
     align-self: center;
 }
 .galery-sell{
@@ -38,31 +38,33 @@ justify-content: center; */
     font-size: 14px;
     opacity: 55%;
 }
->article{
+>section{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    
+    height: 100%;
+    padding: 100px 20px 0 0;
 }
 
->article h2{
+>section h2{
     font-size: 22px;
     font-family: var(--family);
-    line-height: 25.96px;
+    font-weight: 600;
     text-align: start;
     color: var(--white);
     opacity: 90%;
 }
->article .galery-star{
-    height: 14px;
-    width: 15px;
+>section .galery-star{
+    height: 18px;
+    width: 18px;
     margin-right: 3px;
     background-color: var(--blue2);
     
 }
->article .galery-betterSell{
+>section .galery-betterSell{
     background-color: var(--orange);
-    padding: 2px 2px;
+    width: 6rem;
+    padding: 3px 3px 3px 5px;
     font-size: 12px;
     line-height: 12px;
     font-weight: 700;
@@ -70,42 +72,50 @@ justify-content: center; */
     border-radius: 3px;
     opacity: 90%;
 }
->article .galery-OneCategory{
+>section .galery-OneCategory{
     color: var(--blue1);
     font-size: 12px;
     opacity: 90%;
+    margin-left: 8px;
 }
->article .galery-price{
+>section .galery-price{
     font-size: 36px;
     opacity: 90%;
 }
->article .galery-fee1{
+>section .galery-fee1{
     font-size: 18px;
     opacity: 90%;
 }
->article .galery-fee2{
+>section .galery-fee2{
     padding-left: 5px;
     font-size: 18px;
     color: var(--green);
     opacity: 90%;
 }
->article .galery-methodPay{
+>section .galery-methodPay{
     font-size: 14px;
     line-height: 18.9px;
     color: var(--blue2);
     opacity: 90%;
-    margin-top: 700px auto;
+    margin-top: 10px;
+}
+.galery-info{
+    >span{
+        font-weight: 600;
+    }
+    & li{
+        margin: 0 17px 10px 0;
+    }
 }
 .galery-info-buy{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 649px;
+    border: 1px solid rgba(69, 66, 142, 1);
+    border-radius: 8px;
+    margin: 0 15px 0 0;
+    padding: 15px 0 0 15px;
 }
 .galery-info-shipping-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 25px 0 15px 0;
 }
 .galery-info-shipping{
@@ -115,13 +125,16 @@ justify-content: center; */
         font-weight: 600;
         font-size: 16px;
     }
+    >img{
+        margin-right: 10px;
+    }
 }
 .galery-info-direction a{
     text-decoration: none;
     color: var(--blue1);
     >img{
         width: 14px;
-        margin: 0 5px 0 35px;
+        margin: 5px 5px 0 40px;
     }
 }
 .galery-info-sellerInfo{
