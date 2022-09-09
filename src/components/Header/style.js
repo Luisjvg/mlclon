@@ -8,7 +8,7 @@ margin: 0 auto;
 `
 
 export const Wrapper = styled.nav`
-max-width: 1200px;
+max-width: 84.5%;
 margin: 8px 8px;
 margin: 0 auto;
 height: 100px;

@@ -34,7 +34,7 @@ justify-content: center; */
     align-self: center;
 }
 .galery-sell{
-    color: var(--gray2);
+    color: var(--white);
     font-size: 14px;
     opacity: 55%;
 }
@@ -43,7 +43,7 @@ justify-content: center; */
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    padding: 100px 20px 0 0;
+    padding: 70px 10px;
 }
 
 >section h2{
@@ -63,6 +63,8 @@ justify-content: center; */
 }
 >section .galery-betterSell{
     background-color: var(--orange);
+    color: var(--white);
+    opacity: 90%;
     width: 6rem;
     padding: 3px 3px 3px 5px;
     font-size: 12px;
@@ -70,7 +72,6 @@ justify-content: center; */
     font-weight: 700;
     box-shadow: none;
     border-radius: 3px;
-    opacity: 90%;
 }
 >section .galery-OneCategory{
     color: var(--blue1);
@@ -81,10 +82,12 @@ justify-content: center; */
 >section .galery-price{
     font-size: 36px;
     opacity: 90%;
+    color: var(--white);
 }
 >section .galery-fee1{
     font-size: 18px;
     opacity: 90%;
+    color: var(--white);
 }
 >section .galery-fee2{
     padding-left: 5px;
@@ -100,22 +103,34 @@ justify-content: center; */
     margin-top: 10px;
 }
 .galery-info{
-    >span{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    >p{
         font-weight: 600;
+        color: var(--white);
+        margin-bottom: 15px;
     }
     & li{
-        margin: 0 17px 10px 0;
+        padding: 0 0 15px 0;
+        color: var(--white);
+        opacity: 90%;
     }
 }
 .galery-info-buy{
-    border: 1px solid rgba(69, 66, 142, 1);
-    border-radius: 8px;
-    margin: 0 15px 0 0;
-    padding: 15px 0 0 15px;
-}
-.galery-info-shipping-container{
     display: flex;
     flex-direction: column;
+    height: 100%;
+}
+.galery-info-buy-container{
+    border: 1px solid rgba(232, 232, 233, 1);
+    border-radius: 8px;
+    margin: 30px 15px 0 0;
+    padding: 15px 0 0 15px;
+    height: auto;
+}
+.galery-info-shipping-container{
+    
     margin: 25px 0 15px 0;
 }
 .galery-info-shipping{
@@ -147,6 +162,17 @@ justify-content: center; */
     >p{
         color:var(--white)
     }
+}
+.galery-features{
+    color: var(--blue1);
+    margin: 8px 0 29px 0;
+}
+.galery-others{
+    >span>p{
+        color: var(--blue1);
+        margin: 15px 0 75px 0;
+    }
+    
 }
 .sellerInfo-sellerName{
     color: var(--white);
@@ -183,9 +209,7 @@ justify-content: center; */
     }
 }
 .galery-info-buyInfo{
-    display: grid;
-    grid-template-columns: auto 3fr;
-    grid-template-rows: repeat(4, .2fr);
+    display: flex;
 }
 .galery-info-buyInfo img{
     grid-column: 1;

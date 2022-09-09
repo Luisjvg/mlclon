@@ -54,10 +54,10 @@ export const Products = () => {
               </span>
               <br/>
               <br/>
-              <div className='galery-info'>
-                <span>
+              <p>
                     Lo que tenés que saber de este producto
-                </span>
+              </p>
+              <div className='galery-info'>
                 <ul>
                   <li>Procesador AMD Ryzen 5.</li>
                   <li>Memoria RAM de 8GB.</li>
@@ -71,42 +71,54 @@ export const Products = () => {
                   <li>Modo de sonido Stereo.</li>
                 </ul>
               </div>
+              <span className='galery-features'>
+                Ver características
+              </span>
+              <div className='galery-others'>
+                <span>
+                  Opciones de compra:<br /><br/>
+                  <p>
+                    11 productos nuevos desde 165.999
+                  </p>
+                </span>
+              </div>
           </section>
           <div class="galery-info-buy">
-            <div className="galery-info-shipping-container">
-              <p className="galery-info-shipping">
+            <div className='galery-info-buy-container'>
+              <div className="galery-info-shipping-container">
+                <p className="galery-info-shipping">
                 <img src={img.camion} alt='imagen de camion'></img>
                 Llega gratis
                 <span> mañana</span>
-              </p>
-              <div className="galery-info-direction">
+                </p>
+                <div className="galery-info-direction">
                 <a href="#">
                   <img src={img.pin}></img>
                   Dirección del comprador
                 </a>
+                </div>
               </div>
-            </div>
-            <div className="galery-info-sellerInfo">
+              <div className="galery-info-sellerInfo">
               <div className="sellerInfo-sellerName">
                 Vendido por
                 <a> Nombre Vendedor</a>
               </div>
               <p>MercadoLíder | 43.159 ventas</p>
               <span>Hace Factura A</span>
-            </div>
-            <p className="galery-info-stock">Stock disponible</p>
-            <div className="galery-info-stockInfo">
+              </div>
+              <p className="galery-info-stock">Stock disponible</p>
+              <div className="galery-info-stockInfo">
                <span>Cantidad: </span>
                <span class="stockInfo-unit">1 unidad </span>
                <span class="stockInfo-quantities">(4 disponibles)
               </span>
-            </div>
-            <div className="galery-info-buttonBuy">
+              </div>
+              <div className="galery-info-buttonBuy">
               <button className="buttonBuy-buy">Comprar ahora</button><br/>
               <button className="buttonBuy-addCar">
                 <span>Agregar al carrito</span></button>
-            </div>
-            <div className="galery-info-buyInfo">
+              </div>
+              <div className="galery-info-buyInfo">
               <ul className="buyInfo-list">
                 <li>
                   <img src={img.flecha}></img>
@@ -146,7 +158,9 @@ export const Products = () => {
                   </span>
                 </li>
               </ul>
+              </div>
             </div>
+
           </div>
           </Galeria>
             <Info /> 

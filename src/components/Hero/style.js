@@ -7,7 +7,7 @@ background-color: var(--background);
 /* align-items: center; */
 `
 export const Row = styled.div`
-width: 1184px;
+width: 85%;
 display: flex; 
 justify-content: space-between;
 align-items: flex-end;
