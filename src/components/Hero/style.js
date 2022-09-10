@@ -35,6 +35,8 @@ margin: 0 auto;
     >li {
         opacity: 90%;
         font-size: 14px;
+        color: var(--white);
+        opacity: 90%;
     }
     > a {
         text-decoration: none;
@@ -50,6 +52,8 @@ margin: 0 auto;
     > span{
         margin-right: 2%;
         font-size: 14px;
+        color: var(--white);
+        opacity: 90%;
     }
     > li{
         color: var(--blue1);

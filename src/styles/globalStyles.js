@@ -18,6 +18,7 @@ export default createGlobalStyle`
     --green: #72ffda;
     --yellow1: #938600;
     --yellow2: #fffef4;
+    --yellowHeader: rgba(187, 157, 0, 1);
     --orange: #e14b00;
     /* --gray1: #2c3031; */
     --gray2: #272a2b;

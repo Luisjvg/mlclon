@@ -54,11 +54,11 @@ export const Products = () => {
               </span>
               <br/>
               <br/>
+              <div className='galery-info'>
               <p>
                     Lo que tenés que saber de este producto
               </p>
-              <div className='galery-info'>
-                <ul>
+                <ol>
                   <li>Procesador AMD Ryzen 5.</li>
                   <li>Memoria RAM de 8GB.</li>
                   <li>Resolución de 1920x1080 px.</li>
@@ -69,7 +69,7 @@ export const Products = () => {
                   <li>Incluye lector de tarjeta de memoria.</li>
                   <li>Posee pad numérico.</li>
                   <li>Modo de sonido Stereo.</li>
-                </ul>
+                </ol>
               </div>
               <span className='galery-features'>
                 Ver características

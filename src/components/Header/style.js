@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.header`
 width: 100%;
 height: 100%;
-background-color: var(--yellow1);
+background-color: var(--yellowHeader);
 margin: 0 auto;
 `
 
@@ -17,3 +17,20 @@ img{
     height: 34px;
 }
 `
+export const Row = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+.nav-category{
+    & li{
+        display: inline;
+        padding-right: 24px;
+    }
+}
+.nav-login{
+    & li{
+        display: inline;
+    }
+}
+`;
