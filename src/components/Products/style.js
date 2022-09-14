@@ -28,10 +28,20 @@ margin: 0 auto;
 /* display: flex; 
 align-items: center;
 justify-content: center; */
+.galery-img-container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    >figure{
+        margin-top: 100px;
+        position: sticky;
+        top: 20px;
+    }
+    >figure>img{
+        width: 75%;
+        align-self: center;
+    }
 
- >img{
-    width: 75%;
-    align-self: center;
 }
 .galery-sell{
     color: var(--white);
@@ -127,7 +137,7 @@ justify-content: center; */
     height: 100%;
 }
 .galery-info-buy-container{
-    border: 1px solid rgba(232, 232, 233, 1);
+    border: 1px solid rgba(232, 232, 233, .1);
     border-radius: 8px;
     margin: 30px 15px 0 0;
     padding: 15px 0 0 15px;

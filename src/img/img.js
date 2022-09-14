@@ -7,8 +7,9 @@ import flecha from './icons/flecha.png'
 import insignia from './icons/insignia.png'
 import trofeo from './icons/trofeo.png'
 import camion from './camion.jpg'
-import domicilio from './img2/domicilio.jpg'
+import domicilio from './Domicilio.jpg'
 import ofertas from './img2/ofertas.webp'
+import carrito from './carritoCompra.jpg'
 
 export const img = {
     "logo": logo,
@@ -22,5 +23,6 @@ export const img = {
     "camion": camion,
     "domicilio": domicilio,
     "ofertas": ofertas,
+    "carrito": carrito,
 }
 

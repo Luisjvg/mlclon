@@ -6,13 +6,20 @@ export const Header = () => {
   return (
     <Container>
       <Wrapper>
-        <img src={img.logo} alt='Logo_Ml' />
+        <img src={img.logo} alt='Logo_Ml' className='logo'/>
+        <form>
+          <input type="search" placeholder="Buscas productos, mascas y más..."></input>
+          <button type='submit'>
+            aol
+          </button>
+        </form>
+        <img src={img.ofertas} alt='img de Ofertas' className='Ofertas'></img>
       </Wrapper>
       <Row>
         <img src={img.domicilio}></img>
         <div className='nav-category'>
+          <span>Categoría</span>
           <ul>
-            <li>Categoría</li>
             <li>Ofertas</li>
             <li>Historial</li>
             <li>Supermercado</li>
@@ -27,6 +34,7 @@ export const Header = () => {
             <li>Ingresá</li>
             <li>Mis compras</li>
           </ul>
+          <img src={img.carrito}></img>
         </div>
       </Row>
     </Container>

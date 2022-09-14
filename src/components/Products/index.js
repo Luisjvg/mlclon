@@ -14,7 +14,11 @@ export const Products = () => {
       <Panel>
         <Column>
           <Galeria>
-          <img src={img.notebook} alt="Producto"></img>
+          <div className='galery-img-container'>
+            <figure>
+              <img src={img.notebook} alt="Producto"></img>
+            </figure>
+          </div>
           <section>
             <span className='galery-sell'>
                 Nuevo | 4637 vendidos
