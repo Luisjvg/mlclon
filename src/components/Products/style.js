@@ -248,6 +248,7 @@ justify-content: center; */
         text-decoration: none;
         }
 }
+
 `
 
 export const Description = styled.div`

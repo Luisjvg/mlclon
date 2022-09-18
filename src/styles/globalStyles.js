@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6{
 }
 html{
     min-height: 100%;
+    min-width: 1184px;
     background-color: var(--background);
 }
 *, button, input{

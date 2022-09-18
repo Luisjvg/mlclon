@@ -14,6 +14,9 @@ export const Header = () => {
           </button>
         </form>
         <img src={img.ofertas} alt='img de Ofertas' className='Ofertas'></img>
+        <a href='#' className='row-carrito'>
+            <img src={img.carrito}></img>
+        </a>
       </Wrapper>
       <Row>
         <img src={img.domicilio}></img>
@@ -34,7 +37,6 @@ export const Header = () => {
             <li>Ingresá</li>
             <li>Mis compras</li>
           </ul>
-          <img src={img.carrito}></img>
         </div>
       </Row>
     </Container>
