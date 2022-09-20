@@ -6,7 +6,8 @@ import {
   Column,
   Galeria,
   Description,
-   } from './style'
+} from './style'
+import {ShowWindowDimensions} from '../../styles/Event'
 
 export const Products = () => {
   return (
@@ -14,7 +15,8 @@ export const Products = () => {
       <Panel>
         <Column>
           <Galeria>
-          <div className='galery-img-container'>
+            <ShowWindowDimensions/>
+          <div className='galery-img-container'> 
             <figure>
               <img src={img.notebook} alt="Producto"></img>
             </figure>

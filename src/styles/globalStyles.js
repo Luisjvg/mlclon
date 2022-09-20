@@ -40,9 +40,9 @@ h1, h2, h3, h4, h5, h6{
     color: var(--text1);
     font-weight: inherit;
 }
-html{
-    min-height: 100%;
-    min-width: 1184px;
+html {
+    height: 100%;
+    width: 1519px;
     background-color: var(--background);
 }
 *, button, input{

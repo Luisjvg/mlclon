@@ -3,11 +3,14 @@ import styled from "styled-components";
 export const Container = styled.div`
 padding-top: 25px;
 background-color: var(--background);
-/* width: 1519px; */
+width: 1519px;
 /* align-items: center; */
+@media only screen and (max-width: 1023px){
+    display: none;
+}
 `
 export const Row = styled.div`
-width: 85%;
+width: 1184px;
 display: flex; 
 justify-content: space-between;
 align-items: flex-end;

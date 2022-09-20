@@ -14,7 +14,7 @@ align-content: center; */
 
 export const Column = styled.div`
 background-color: var(--background);
-/* width: 1519px; */
+max-width: 1519px;
 margin-top: 12px;
 `
 export const Galeria = styled.div`
@@ -23,7 +23,7 @@ grid-template-columns: 1.5fr 1fr 1fr;
 justify-items: center;
 align-items: center;
 background-color: var(--background2);
-width: 85%;
+width: 1184px;
 margin: 0 auto;
 /* display: flex; 
 align-items: center;
@@ -248,9 +248,17 @@ justify-content: center; */
         text-decoration: none;
         }
 }
-
+@media only screen and (max-width: 1023px){
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    .galery-img-container{
+        width: auto;
+    }
+    
+}
 `
-
+export const ShowWindowDimensions = styled.div``
 export const Description = styled.div`
 border-top: 1px solid black;
 width: 88%;
