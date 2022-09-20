@@ -4,6 +4,10 @@ export const Container = styled.div`
 /* display: flex;
 flex-direction: column; */
 background-color: var(--background);
+width: 1519px;
+@media only screen and (max-width: 1023px){
+    width: auto;
+}
 `
 export const Panel = styled.div`
 background-color: var(--background);
@@ -14,7 +18,6 @@ align-content: center; */
 
 export const Column = styled.div`
 background-color: var(--background);
-max-width: 1519px;
 margin-top: 12px;
 `
 export const Galeria = styled.div`

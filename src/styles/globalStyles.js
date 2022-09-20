@@ -41,8 +41,7 @@ h1, h2, h3, h4, h5, h6{
     font-weight: inherit;
 }
 html {
-    height: 100%;
-    width: 1519px;
+    width: auto;
     background-color: var(--background);
 }
 *, button, input{

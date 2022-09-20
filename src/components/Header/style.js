@@ -6,8 +6,8 @@ height: 100%;
 background-color: var(--yellowHeader);
 margin: 0 auto;
 @media (max-width: 1023px){
-    max-width: auto;
-    max-height: auto;
+    width: auto;
+    height: auto;
 }
 `
 
@@ -45,7 +45,7 @@ input{
     top: 75px;
     left: 19px;
 }
-@media only screen and (max-device-width: 1023px){
+@media only screen and (max-width: 1023px){
 width: auto;
 height: auto;
 padding: 10px 0;

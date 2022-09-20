@@ -12,10 +12,10 @@ import {ShowWindowDimensions} from '../../styles/Event'
 export const Products = () => {
   return (
     <Container>
+            <ShowWindowDimensions/>
       <Panel>
         <Column>
           <Galeria>
-            <ShowWindowDimensions/>
           <div className='galery-img-container'> 
             <figure>
               <img src={img.notebook} alt="Producto"></img>
