@@ -12,7 +12,6 @@ import {ShowWindowDimensions} from '../../styles/Event'
 export const Products = () => {
   return (
     <Container>
-            <ShowWindowDimensions/>
       <Panel>
         <Column>
           <Galeria>
@@ -21,74 +20,82 @@ export const Products = () => {
               <img src={img.notebook} alt="Producto"></img>
             </figure>
           </div>
-          <section>
-            <span className='galery-sell'>
-                Nuevo | 4637 vendidos
-            </span>
-              <br/>
-                <h2>
-                Notebook HP 15-ef2126wm spruce blue 15.6", AMD Ryzen 5 5500U 8GB de RAM 256GB SSD, AMD Radeon RX Vega 7 1920x1080px Windows 10 Home
-                </h2>
-              <br/>
+          {/* <section> */}
+            <div className='galery-sell-container'>
+              <div className='galery-Container-media'>
+                <span className='galery-sell'>
+                    Nuevo | 4637 vendidos
+                </span>
+                  <br/>
+                    <h2>
+                    Notebook HP 15-ef2126wm spruce blue 15. 6", AMD Ryzen 5 5500U 8GB de RAM 256GB   SSD, AMD Radeon RX Vega 7 1920x1080px   Windows 10 Home
+                    </h2>
+                  <br/>
+                    <span className='galery-star'>
+                      <img src={img.star} alt="Estrella de puntuacion"></img>
+                      <img src={img.star} alt="Estrella de puntuacion"></img>
+                      <img src={img.star} alt="Estrella de puntuacion"></img>
+                      <img src={img.star} alt="Estrella de puntuacion"></img>
+                      <img src={img.star} alt="Estrella de puntuacion"></img>
+                    </span>
+                  <br/>
+                  <div>
+                    <span className="galery-betterSell">
+                        MÁS VENDIDO
+                    </span>
+                    <span className="galery-OneCategory">
+                        1° en Notebooks
+                    </span>
+                    </div>
+              </div>
+            </div>
+              <div className='galery-price-container'>
                 <span>
-                <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
-                <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
-                <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
-                <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
-                <img src={img.star} alt="Estrella de puntuacion" className="galery-star"></img>
+                  <br/>
+                  <span className="galery-price">$</span>
+                  <span className="galery-price">123.499</span>
+                  <br/>
+                  <span className="galery-fee1">en</span>
+                  <span className="galery-fee2">6x $ 20.583 sin interés</span>
+                  <br/>
                 </span>
-              <br/>
-              <div>
-                <span className="galery-betterSell">
-                    MÁS VENDIDO
-                </span>
-                <span className="galery-OneCategory">
-                    1° en Notebooks
+                <span className="galery-methodPay">
+                  Ver los medios de pago
                 </span>
               </div>
-              <span>
-              <br/>
-                <span className="galery-price">$</span>
-                <span className="galery-price">123.499</span>
-               <br/>
-                <span className="galery-fee1">en</span>
-                <span className="galery-fee2">6x $ 20.583 sin interés</span>
-              <br/>
-              </span>
-              <span className="galery-methodPay">
-                Ver los medios de pago
-              </span>
-              <br/>
-              <br/>
-              <div className='galery-info'>
-              <p>
-                    Lo que tenés que saber de este producto
-              </p>
-                <ol>
-                  <li>Procesador AMD Ryzen 5.</li>
-                  <li>Memoria RAM de 8GB.</li>
-                  <li>Resolución de 1920x1080 px.</li>
-                  <li>Es antirreflejo.</li>
-                  <li>Placa de video AMD Radeon RX Vega 7.</li>
-                  <li>Conexión wifi y bluetooth.</li>
-                  <li>Cuenta con 3 puertos USB y puerto HDMI.</li>
-                  <li>Incluye lector de tarjeta de memoria.</li>
-                  <li>Posee pad numérico.</li>
-                  <li>Modo de sonido Stereo.</li>
-                </ol>
-              </div>
-              <span className='galery-features'>
-                Ver características
-              </span>
-              <div className='galery-others'>
-                <span>
-                  Opciones de compra:<br /><br/>
-                  <p>
-                    11 productos nuevos desde 165.999
-                  </p>
+              <div className='galery-info-container'>
+                <br/>
+                <br/>
+                <div className='galery-info'>
+                <p>
+                      Lo que tenés que saber de este producto
+                </p>
+                  <ol>
+                    <li>Procesador AMD Ryzen 5.</li>
+                    <li>Memoria RAM de 8GB.</li>
+                    <li>Resolución de 1920x1080 px.</li>
+                    <li>Es antirreflejo.</li>
+                    <li>Placa de video AMD Radeon RX Vega 7.</li>
+                    <li>Conexión wifi y bluetooth.</li>
+                    <li>Cuenta con 3 puertos USB y puerto HDMI.</li>
+                    <li>Incluye lector de tarjeta de memoria.</li>
+                    <li>Posee pad numérico.</li>
+                    <li>Modo de sonido Stereo.</li>
+                  </ol>
+                </div>
+                <span className='galery-features'>
+                  Ver características
                 </span>
+                <div className='galery-others'>
+                  <span>
+                    Opciones de compra:<br /><br/>
+                    <p>
+                      11 productos nuevos desde 165.999
+                    </p>
+                  </span>
+                </div>
               </div>
-          </section>
+          {/* </section> */}
           <div class="galery-info-buy">
             <div className='galery-info-buy-container'>
               <div className="galery-info-shipping-container">

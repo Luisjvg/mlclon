@@ -46,20 +46,15 @@ justify-content: center; */
     }
 
 }
+.galery-sell-container{
+    grid-column: 2;
+}
 .galery-sell{
     color: var(--white);
     font-size: 14px;
     opacity: 55%;
 }
->section{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding: 70px 10px;
-}
-
->section h2{
+h2{
     font-size: 22px;
     font-family: var(--family);
     font-weight: 600;
@@ -67,14 +62,14 @@ justify-content: center; */
     color: var(--white);
     opacity: 90%;
 }
->section .galery-star{
+.galery-star img{
     height: 18px;
     width: 18px;
     margin-right: 3px;
     background-color: var(--blue2);
     
 }
->section .galery-betterSell{
+.galery-betterSell{
     background-color: var(--orange);
     color: var(--white);
     opacity: 90%;
@@ -86,29 +81,32 @@ justify-content: center; */
     box-shadow: none;
     border-radius: 3px;
 }
->section .galery-OneCategory{
+.galery-OneCategory{
     color: var(--blue1);
     font-size: 12px;
     opacity: 90%;
     margin-left: 8px;
 }
->section .galery-price{
+.galery-price-container{
+    grid-column: 2;
+}
+.galery-price{
     font-size: 36px;
     opacity: 90%;
     color: var(--white);
 }
->section .galery-fee1{
+.galery-fee1{
     font-size: 18px;
     opacity: 90%;
     color: var(--white);
 }
->section .galery-fee2{
+.galery-fee2{
     padding-left: 5px;
     font-size: 18px;
     color: var(--green);
     opacity: 90%;
 }
->section .galery-methodPay{
+.galery-methodPay{
     font-size: 14px;
     line-height: 18.9px;
     color: var(--blue2);
@@ -255,8 +253,20 @@ justify-content: center; */
     width: auto;
     display: flex;
     flex-direction: column;
+    
     .galery-img-container{
         width: auto;
+    }
+    .galery-sell{
+        display: flex;
+    }
+    .galery-Container-media{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .galery-star{
+        display: flex;
+        flex-wrap: wrap-reverse;
     }
     
 }
