@@ -20,7 +20,7 @@ export const Products = () => {
               <img src={img.notebook} alt="Producto"></img>
             </figure>
           </div>
-          {/* <section> */}
+          <section>
             <div className='galery-sell-container'>
               <div className='galery-Container-media'>
                 <span className='galery-sell'>
@@ -49,6 +49,11 @@ export const Products = () => {
                     </div>
               </div>
             </div>
+            <div className='galery-img-sell'> 
+                <figure>
+                  <img src={img.notebook} alt="Producto"></img>
+                </figure>
+              </div>
               <div className='galery-price-container'>
                 <span>
                   <br/>
@@ -95,7 +100,7 @@ export const Products = () => {
                   </span>
                 </div>
               </div>
-          {/* </section> */}
+          </section>
           <div class="galery-info-buy">
             <div className='galery-info-buy-container'>
               <div className="galery-info-shipping-container">
