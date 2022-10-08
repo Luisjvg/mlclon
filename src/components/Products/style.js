@@ -19,6 +19,9 @@ align-content: center; */
 export const Column = styled.div`
 background-color: var(--background);
 margin-top: 12px;
+@media screen and (max-width: 1023px){
+    margin-top: 0;
+}
 `
 export const Galeria = styled.div`
 display: flex;
@@ -118,6 +121,9 @@ h2{
     color: var(--blue2);
     opacity: 90%;
     margin-top: 10px;
+}
+.galery-media-info-buy{
+    display: none;
 }
 .galery-info{
     >p{
@@ -266,7 +272,7 @@ h2{
     >section{
         grid-row: 1;
         padding: 0;
-        width: 85%;
+        width: 90%;
     }
     .galery-sell-container{
         margin: 0 0 0 0;
@@ -275,29 +281,57 @@ h2{
         display: block;
         width: 100%;
     text-align: center;
-
     >figure{
         margin-top: 20px;
         position: sticky;
         top: 20px;
-    }
+        }
     >figure>img{
         width: 100%;
         align-self: center;
+        }
     }
+    .galery-price{
+        font-size: 32px;
+        font-weight: 300;
     }
     .galery-sell{
-        display: flex;
+        font-size: 12px;
     }
     .galery-Container-media{
         display: flex;
         flex-wrap: wrap;
+        >h2{
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    .galery-sell-media-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin: 18px 0;
     }
     .galery-star{
         display: flex;
         flex-wrap: wrap-reverse;
+        height: 100%;
+        align-items: flex-end;
+        >img{
+            width: 10px;
+            height: 10px;
+        }
     }
-    
+    .galery-betterSell-container{
+        margin: 14px 0;
+    }
+    .galery-media-info-buy{
+        display: block;
+    }
+    .galery-info-buy{
+        display: none;
+    }
 }
 `
 export const ShowWindowDimensions = styled.div``

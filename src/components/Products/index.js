@@ -23,30 +23,32 @@ export const Products = () => {
           <section>
             <div className='galery-sell-container'>
               <div className='galery-Container-media'>
-                <span className='galery-sell'>
-                    Nuevo | 4637 vendidos
-                </span>
+                <div className='galery-sell-media-container'>
+                  <span className='galery-sell'>
+                      Nuevo | 4637 vendidos
+                  </span>
+                  <span className='galery-star'>
+                        <img src={img.star} alt="Estrella de puntuacion"></img>
+                        <img src={img.star} alt="Estrella de puntuacion"></img>
+                        <img src={img.star} alt="Estrella de puntuacion"></img>
+                        <img src={img.star} alt="Estrella de puntuacion"></img>
+                        <img src={img.star} alt="Estrella de puntuacion"></img>
+                  </span>
+                </div>
                   <br/>
                     <h2>
                     Notebook HP 15-ef2126wm spruce blue 15. 6", AMD Ryzen 5 5500U 8GB de RAM 256GB   SSD, AMD Radeon RX Vega 7 1920x1080px   Windows 10 Home
                     </h2>
                   <br/>
-                    <span className='galery-star'>
-                      <img src={img.star} alt="Estrella de puntuacion"></img>
-                      <img src={img.star} alt="Estrella de puntuacion"></img>
-                      <img src={img.star} alt="Estrella de puntuacion"></img>
-                      <img src={img.star} alt="Estrella de puntuacion"></img>
-                      <img src={img.star} alt="Estrella de puntuacion"></img>
-                    </span>
                   <br/>
-                  <div>
+                  <div className='galery-betterSell-container'>
                     <span className="galery-betterSell">
                         MÁS VENDIDO
                     </span>
                     <span className="galery-OneCategory">
                         1° en Notebooks
                     </span>
-                    </div>
+                  </div>
               </div>
             </div>
             <div className='galery-img-sell'> 
@@ -68,7 +70,121 @@ export const Products = () => {
                   Ver los medios de pago
                 </span>
               </div>
-              <div className='galery-info-container'>
+              <div className='galery-media-info-buy'>
+                <div class="galery-media-info-buy">
+                <div className="galery-info-shipping-container">
+                <p className="galery-info-shipping">
+                <img src={img.camion} alt='imagen de camion'></img>
+                Llega gratis
+                <span> mañana</span>
+                </p>
+                <div className="galery-info-direction">
+                <a href="#">
+                  <img src={img.pin}></img>
+                  Dirección del comprador
+                </a>
+                </div>
+              </div>
+              <div className="galery-info-sellerInfo">
+              <div className="sellerInfo-sellerName">
+                Vendido por
+                <a> Nombre Vendedor</a>
+              </div>
+              <p>MercadoLíder | 43.159 ventas</p>
+              <span>Hace Factura A</span>
+              </div>
+              <p className="galery-info-stock">Stock disponible</p>
+              <div className="galery-info-stockInfo">
+               <span>Cantidad: </span>
+               <span class="stockInfo-unit">1 unidad </span>
+               <span class="stockInfo-quantities">(4 disponibles)
+              </span>
+              </div>
+              <div className="galery-info-buttonBuy">
+              <button className="buttonBuy-buy">Comprar ahora</button><br/>
+              <button className="buttonBuy-addCar">
+                <span>Agregar al carrito</span></button>
+              </div>
+              <div className="galery-info-buyInfo">
+              <ul className="buyInfo-list">
+                <li>
+                  <img src={img.flecha}></img>
+                </li>
+                <li>
+                  <img src={img.escudo}></img>
+                </li>
+                <li>
+                  <img src={img.trofeo}></img>
+                </li>
+                <li>
+                  <img src={img.insignia}></img>
+                </li>
+              </ul>
+              <ul className="buyInfo-list">
+                <li>
+                  <span>
+                    <a href='#'>Devolución gratis. </a>
+                    Tenés 30 días desde que lo recibís
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <a href='#'>Compra Protegida, </a>
+                    recibí el producto que esperabas o te devolvemos tu dinero.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <a href='#'>Mercado Puntos. </a>
+                    Sumás 907 puntos.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    12 meses de garantía de fábrica.
+                  </span>
+                </li>
+              </ul>
+              </div>
+            </div>
+                </div>
+                <div className='galery-media-optionPrice'>
+                    <div className='galery-optionPrice-container'>
+                      <h2>Otras opciones de compra</h2>
+                      <ul className='galery-optionPrice-items'>
+                        <li>
+                          <div>
+                            <p>208.590
+                            <span>Cuotas sin interés</span>
+                            </p>
+                          </div>
+                          <ul>
+                            <li>
+                              <p>Pagá en 6 cuotas sin interés
+                              <br/>
+                              Llega gratis el miércoles
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                Vendido por 
+                                <a href="#">Nombre del vendedor</a>
+                              </p>
+                              <p>
+                                281 ventas
+                              </p>
+                              <span>Hace Factura A</span>
+                            </li>
+                            <li>
+                              <button>Comprar ahora</button>
+                              <button>Agregar al carrito</button>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                <div className='galery-info-container'>
                 <br/>
                 <br/>
                 <div className='galery-info'>
@@ -99,7 +215,10 @@ export const Products = () => {
                     </p>
                   </span>
                 </div>
-              </div>
+                </div>  
+                <div>
+                  <div className='galery-media-optionBuy'></div>
+                </div>
           </section>
           <div class="galery-info-buy">
             <div className='galery-info-buy-container'>
