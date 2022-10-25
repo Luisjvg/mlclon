@@ -7,7 +7,7 @@ import {
   Galeria,
   Description,
 } from './style'
-import {ShowWindowDimensions} from '../../styles/Event'
+import {hidden} from '../../styles/Event'
 
 export const Products = () => {
   return (
@@ -154,18 +154,21 @@ export const Products = () => {
                       <ul className='galery-optionPrice-items'>
                         <li>
                           <div>
-                            <p>208.590
+                            <p>$ 182.999
                             <span>Cuotas sin interés</span>
+                            <button type='button' onClick={hidden}>bajar</button>
                             </p>
                           </div>
                           <ul>
                             <li>
-                              <p>Pagá en 6 cuotas sin interés
-                              <br/>
-                              Llega gratis el miércoles
+                              <p className='item-optionPay'>Pagá en 6 cuotas sin interés
+                                <br/>
+                                <p>
+                                  Llega gratis el miércoles
+                                </p>
                               </p>
                             </li>
-                            <li>
+                            <li className='item-seller'>
                               <p>
                                 Vendido por 
                                 <a href="#">Nombre del vendedor</a>
@@ -176,8 +179,9 @@ export const Products = () => {
                               <span>Hace Factura A</span>
                             </li>
                             <li>
-                              <button>Comprar ahora</button>
-                              <button>Agregar al carrito</button>
+                              <button type='button'>
+                                <span>Comprar ahora</span>
+                              </button>
                             </li>
                           </ul>
                         </li>
@@ -215,9 +219,6 @@ export const Products = () => {
                     </p>
                   </span>
                 </div>
-                </div>  
-                <div>
-                  <div className='galery-media-optionBuy'></div>
                 </div>
           </section>
           <div class="galery-info-buy">

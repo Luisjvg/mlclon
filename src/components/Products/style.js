@@ -328,9 +328,88 @@ h2{
     }
     .galery-media-info-buy{
         display: block;
+        border-bottom: 1px solid rgba(182, 169, 150, 0.1);
     }
     .galery-info-buy{
         display: none;
+    }
+    .galery-media-optionPrice{
+        margin: 25px 0;
+        display: flex;
+    }
+    .galery-optionPrice-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgba(182, 169, 150, 0.1);
+        border-radius: 8px;
+        padding: 0 14px 10px 14px;
+        width: 100%;
+        >h2{
+            font-size: 13px;
+            margin: 14px 0;
+        }
+        .galery-optionPrice-items{
+            list-style: none;
+            border-top: 1px solid rgba(182, 169, 150, 0.1);
+            >li>div{
+                margin: 10px 0;
+                >p{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    font-size: 20px;
+                    font-weight: 600;
+                    >span{
+                        font-size: 12px;
+                        font-weight: 600;
+                        color: rgba(0,0,0,.55);
+                        border-radius: 10px;
+                        padding: 2px 8px;
+                        background-color: #272a2b;
+                    }
+                }
+            }
+            >li>ul{
+                list-style: none;
+                height: 163px;
+                .item-optionPay{
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: var(--green);
+                    margin: 15px 0 20px 0;
+                    >p{
+                        margin: 5px 0;
+                    }
+                }
+                .item-seller{
+                    font-size: 12px;
+                    margin: 2px 0;
+                    >p{
+                        margin: 2px 0;
+                    }
+                    >p>a{
+                        margin-left: 7px;
+                        text-decoration: none;
+                    }
+                    >span{
+                        color: var(--white);
+                        opacity: 55%;
+                    }
+                }
+                >li>button{
+                    border-radius: 7px;
+                    margin: 15px 0 10px 0;
+                    width: 100%;
+                    >span{
+                        display: flex;
+                        justify-content: center;
+                        padding: 10px;
+                        border-radius: 7px;
+                        background-color: var(--blue2);
+                    }
+                }
+            }
+        }
     }
 }
 `
