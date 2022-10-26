@@ -1,7 +1,11 @@
 import React, { useLayoutEffect, useState } from 'react';
+import {Products} from '../components/Products/index';
+import {Galeria} from '../components/Products/style';
+
+const galeria = Galeria;
 
 export function hidden(event){
-    console.log("evento");
+    
 }
 
 // function useWindowSize() {

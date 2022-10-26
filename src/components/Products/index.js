@@ -156,10 +156,10 @@ export const Products = () => {
                           <div>
                             <p>$ 182.999
                             <span>Cuotas sin interés</span>
-                            <button type='button' onClick={hidden}>bajar</button>
+                            <button type='button' onClick={hidden} className="galery-optionPrice-button">bajar</button>
                             </p>
                           </div>
-                          <ul>
+                          <ul className='galery-optionPay'>
                             <li>
                               <p className='item-optionPay'>Pagá en 6 cuotas sin interés
                                 <br/>

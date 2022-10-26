@@ -369,7 +369,7 @@ h2{
                     }
                 }
             }
-            >li>ul{
+            >li>.galery-optionPay{
                 list-style: none;
                 height: 163px;
                 .item-optionPay{
